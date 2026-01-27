@@ -1,0 +1,14 @@
+#mydiv {
+  width: 500px;
+  height: 400px;
+  border: 2px solid blue;
+  background-image: url("../img/ll.png");
+}
+.a1 {
+    color: white;
+    background: linear-gradient(to left, brown, yellow, green);
+}
+.a2 {
+    color: white;
+    background-color:rgb(0, 0, 0) ;
+}
