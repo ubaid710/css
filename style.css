@@ -1,10 +1,20 @@
 
 .a1 {
-    text-transform: uppercase;
+    text-transform:lowercase;
+    text-decoration:overline;
+    font-size: x-small;
+    font-weight: 500;
+    color: rgb(80, 18, 139);
+    background-color: goldenrod ;
+    
 
     
 }
 .a2 {
-    text-transform: lowercase;
-   
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: xx-large;
+   font-weight: bold;
+   colour: rgb(193, 158, 158);
+   background: linear-gradient(to left, green,yellow,goldenrod);
 }
