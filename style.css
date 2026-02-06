@@ -9,5 +9,18 @@ li:nth-child(even) {
   background-color: rgb(187, 194, 40);
 }
 li:not(:nth-child(1)) {
-color: rgb(237, 237, 232);
+  color: rgb(237, 237, 232);
+}
+h1::after {
+  content: "Welcome to my website! ";
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+}
+p::first-line {
+  font-weight: bold;
+  color: rgb(0, 0, 255);
+}
+p::first-letter {
+  font-size: 200%;
+  color: rgb(255, 0, 255);
 }
